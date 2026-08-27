@@ -80,6 +80,7 @@ export default function Home() {
     <div className="cover" aria-hidden={opened}>
       <div className="cover-image" style={{ backgroundImage: `url(${wedding.hero})` }} />
       <div className="cover-shade" />
+      <div className="cover-atmosphere" aria-hidden="true"><span className="wave wave-one" /><span className="wave wave-two" /><span className="particle particle-one" /><span className="particle particle-two" /><span className="particle particle-three" /><span className="particle particle-four" /></div>
       <div className="cover-content">
         <Emblem light />
         <SectionLabel>sebuah undangan · 12.09.26</SectionLabel>
